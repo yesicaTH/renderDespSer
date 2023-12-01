@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
 })
 export class GamesService {
 
-  API_URI = 'https://gameserver-9fvz.onrender.com/api';
+  API_URI = 'https://gameserver-9fvz.onrender.com/games';
 
   constructor(private http: HttpClient) { }
 
